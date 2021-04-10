@@ -4,7 +4,7 @@ import fawkes.protection as p
 import hashlib, uuid, threading, os
 import json, base64
 
-QUALITY = 'high'
+QUALITY = 'low'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'pictures/'
